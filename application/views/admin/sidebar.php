@@ -7,12 +7,12 @@
   <section class="sidebar">
     <!-- Sidebar user panel -->
     <div class="user-panel">
-      <div class="pull-left image">
-        <img src="<?php echo base_url() ?>assets/img/admin_icon.png" class="img-circle" alt="User Image">
-      </div>
+      <a href="<?php echo base_url() ?>admin/profile" class="pull-left image">
+      <img src="<?php echo base_url() ?>assets/img/admin_icon.png" class="img-circle" alt="User Image">
+      </a>
       <div class="pull-left info">
-        <p> <?php echo $nama_admin;  ?> </p>
-        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        <p><?php echo $nama_admin;  ?></p>
+        <p> <i class="fa fa-circle text-success"></i> Online </p>
       </div>
     </div>
 
