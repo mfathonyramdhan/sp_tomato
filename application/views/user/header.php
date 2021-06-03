@@ -42,7 +42,7 @@
             </li>
             <li class="nav-item <?php if ("/sp_tomato/admin/login" == $_SERVER['REQUEST_URI']) {
                                 ?> active <?php } ?>">
-              <a href="<?php echo base_url() ?>admin/login" role="button" class="btn btn-success">Login</a>
+              <a href="<?php echo base_url() ?>auth" role="button" class="btn btn-success">Login</a>
 
             </li>
           </ul>
